@@ -7,7 +7,7 @@ try:
     connc = pymysql.Connect(
         host= '127.0.0.1', #real ip(ifconfig ens33's ip) or localhost or 127.0.0.1
         user='root',
-        password="88291880",
+        password="",
         database="person",
         port=3306,
         charset='utf8')
